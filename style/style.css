@@ -361,7 +361,7 @@ header {
   display: grid;
   position: relative;
   grid-template-columns: 60% 40%;
-  background-color: var(--third-clr);
+  background-color: rgb(252, 252, 252);
   padding: 60px 50px;
   border-radius: 18px;
   transform: translateY(-80px);
