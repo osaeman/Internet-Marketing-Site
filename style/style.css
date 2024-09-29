@@ -307,8 +307,7 @@ header {
   color: var(--order-btn-clr);
 }
 .hero-content button a:hover {
-  background-color: rgba(167, 190, 174, 1);
-  color: white;
+  background-color: var(--third-clr);
 }
 /* --------------- */
 
@@ -362,7 +361,7 @@ header {
   display: grid;
   position: relative;
   grid-template-columns: 60% 40%;
-  background-color: #f0fafa;
+  background-color: var(--third-clr);
   padding: 60px 50px;
   border-radius: 18px;
   transform: translateY(-80px);
