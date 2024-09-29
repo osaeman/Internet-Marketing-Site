@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Website Title -->
+    <title>Internet Marketing Comapany</title>
+
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+
+    <meta name="author" content="" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="google" content="nositelinkssearchbox" />
+
+    <link rel="shortcut icon" href="./assets/fav.png" type="image/x-icon" />
+
+    <!-- Google Fonts -->
+    <!-- Preconnecting can help reduce the latency when actual requests are made to this domain, such as when fetching font resources. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Font Awesome Icon -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!-- Sweet Alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/responsive.css" />
+  </head>
+  <body>
+    <!---------- Header ---------->
+    <header>
+      <div class="container header-box">
+        <img src="./assets/site logo.png" alt="" class="logo" />
+        <nav>
+          <ul class="navlinks SMN_effect-31">
+            <li class="nav-item">
+              <a href="./index.html" data-hover="About Us"
+                ><span>About Us</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="./pages/aboutus.html" data-hover="Our Services"
+                ><span>Our Services </span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="./pages/security-officers.html" data-hover="Contact Us"
+                ><span>Contact Us</span></a
+              >
+            </li>
+
+            <li onclick="showSidebar()" class="hamburger-icon">
+              <ion-icon name="menu-outline"></ion-icon>
+            </li>
+          </ul>
+          <ul class="sidebar">
+            <li onclick="closeSidebar()" class="close-icon">
+              <a href="#"><ion-icon name="close-outline"></ion-icon></a>
+            </li>
+            <li class="items">
+              <a href="./index.html">About Us</a>
+            </li>
+            <li class="items"><a href="./pages/aboutus.html">Contact Us</a></li>
+            <li class="items">
+              <a href="./pages/security-officers.html">Our Services</a>
+            </li>
+
+            <img src="./assets/site logo.png" alt="" />
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-------------- Hero Section ------------->
+    <section class="hero-section">
+      <img src="./assets/hero-1.jpg" alt="" />
+      <div class="hero-content-container">
+        <div class="hero-content container">
+          <h1>
+            Digital Marketing
+            <span> Expertise</span>
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum
+            sit voluptatibus vitae laborum dolorum sint sunt, modi fugiat error
+          </p>
+
+          <button class="SMN_effect-35">
+            <a href="tel:07577 778 594">
+              <span>Contact Us</span>
+            </a>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!---------- About Section ----------->
+    <section class="about-section container">
+      <div class="about-section-grid">
+        <div class="about-section-grid-left">
+          <h2 class="heading-2">Digital Marketing Mastery</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam,
+            nam reiciendis voluptates corrupti a ipsa quis eveniet. Dignissimos,
+            natus accusamus ab a voluptatibus optio nesciunt, doloremque, labore
+            aperiam aut architecto!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            dolorum earum odit mollitia nesciunt voluptas ab error enim quos
+            architecto, sit consequatur consectetur temporibus laudantium, nam
+            ad odio excepturi repellat?
+          </p>
+        </div>
+        <div class="about-section-grid-right">
+          <img src="./assets/hero-4.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!----------- Card ------------->
+    <section class="security-cards-section container">
+      <h2 class="heading-2">Our Services</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+        aperiam. Voluptatum et similique autem recusandae facilis officiis
+        maiores asperiores
+      </p>
+      <div class="security-cards">
+        <div class="security-cards-gird">
+          <div class="card-hover">
+            <div class="card-hover__content">
+              <h3 class="card-hover__title">Pay-per-click Advertising</h3>
+              <p class="card-hover__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Suscipit ab similique incidunt non sit nemo aliquid maiores
+              </p>
+            </div>
+
+            <img src="./assets/hero-2.jpg" alt="" />
+          </div>
+          <div class="card-hover">
+            <div class="card-hover__content">
+              <h3 class="card-hover__title">Search Engine Optimization</h3>
+              <p class="card-hover__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Suscipit ab similique incidunt non sit nemo aliquid maiores
+              </p>
+            </div>
+
+            <img src="./assets/hero-3.jpg" alt="" />
+          </div>
+          <div class="card-hover">
+            <div class="card-hover__content">
+              <h3 class="card-hover__title">Social Media Management</h3>
+              <p class="card-hover__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Suscipit ab similique incidunt non sit nemo aliquid maiores
+              </p>
+            </div>
+
+            <img src="./assets/hero-5.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------------- Contact Form ------------->
+    <section class="contact-form">
+      <div class="contact-form-bg"></div>
+      <h2 class="heading-2">Get In Touch</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
+        doloremque, quis expedita corrupti fuga iure explicabo obcaecati quidem
+        quasi
+      </p>
+      <div class="contact-form-grid container">
+        <div class="contact-form-grid-left">
+          <h3 class="heading-3">Contact Information</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
+            hic reiciendis
+          </p>
+          <div>
+            <i class="fas fa-phone-alt"></i>
+            <a href="">+998 344 2382 22</a>
+          </div>
+          <div>
+            <i class="fas fa-envelope"></i>
+            <a href="">Support@uprangly.com</a>
+          </div>
+          <div>
+            <i class="fas fa-globe-americas"></i>
+            <span>Newyork, USA</span>
+          </div>
+        </div>
+        <div class="contact-form-grid-right">
+          <form action="">
+            <div>
+              <label for="">Name <span>*</span></label>
+              <input type="text" placeholder="John" />
+            </div>
+            <div>
+              <label for=""> Email <span>*</span></label>
+              <input type="email" placeholder="Support@uprangly.com" />
+            </div>
+            <div>
+              <label for="">Phone Number <span>*</span></label>
+              <input type="tel" placeholder="+998 344 2382 22" />
+            </div>
+            <div>
+              <label for="">Message <span>*</span></label>
+              <textarea
+                name=""
+                id=""
+                rows="5"
+                placeholder="Write your message here"
+              ></textarea>
+            </div>
+            <button>Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!------------ Footer------- -->
+    <footer>
+      <div class="footer-grid container">
+        <div class="footer-grid-left">
+          <img src="./assets/site logo.png" alt="" />
+        </div>
+        <div class="footer-grid-mid">
+          <nav>
+            <a href="About Us"> About Us </a>
+            <a href="">Our Services</a>
+            <a href="">Contact Us</a>
+          </nav>
+        </div>
+        <div class="footer-grid-right">
+          <nav>
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-linkedin-in"></i></a>
+          </nav>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/app.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

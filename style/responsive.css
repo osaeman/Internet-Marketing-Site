@@ -1,0 +1,281 @@
+@media (max-width: 1024px) {
+  .logo {
+    width: 37px;
+  }
+
+  .heading-2 {
+    font-size: 2.9rem;
+    line-height: 3.8rem;
+  }
+  .heading-3 {
+    font-size: 2.1rem;
+  }
+  /* ----------------Home Page--------------- */
+  .hero-section {
+    height: 75vh;
+  }
+  .hero-section img {
+    height: 75vh;
+  }
+  .hero-content h1 {
+    font-size: 4rem;
+    line-height: 4.7rem;
+  }
+  .hero-content p {
+    font-size: 1.7rem;
+  }
+  .hero-content button a {
+    padding: 11px 20px;
+    font-size: 1.4rem;
+  }
+  /*---------------- About Section------------ */
+  .about-section-grid-left p {
+    font-size: 1.5rem;
+  }
+  .about-section-grid {
+    transform: translateY(-70px);
+  }
+  /*------------- Security Cards -------------*/
+  .security-cards-section {
+    margin: 30px auto 100px auto;
+  }
+  .security-cards-gird {
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 0;
+    row-gap: 30px;
+    max-width: 520px;
+    width: 100%;
+    margin: 32px auto 0 auto;
+  }
+
+  .card-hover {
+    height: 380px;
+  }
+  .security-cards-section > p {
+    width: 90%;
+    font-size: 1.7rem;
+  }
+  /* ------------Contact Section------------ */
+  .contact-form > p {
+    width: 70%;
+  }
+  .contact-form-grid {
+    margin-top: 50px;
+  }
+  .contact-form-grid-left {
+    padding: 30px 30px;
+  }
+  .contact-form-grid-right {
+    padding: 30px 60px;
+  }
+  /*-------------- Footer----------- */
+  .footer-grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 35px;
+  }
+  .footer-grid-left img {
+    width: 50px;
+    margin: 0 auto;
+  }
+  .footer-grid-mid nav a {
+    margin: 0 16px;
+  }
+  .footer-grid-right nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+  }
+}
+@media (max-width: 786px) {
+  .menu {
+    display: none;
+  }
+  .icon {
+    display: block;
+  }
+
+  .logo {
+    width: 32px;
+  }
+
+  .navlinks > li {
+    margin: 0 0 0 20px;
+  }
+
+  .heading-2 {
+    font-size: 2.6rem;
+    line-height: 3.2rem;
+  }
+  /* ----------------Home Page--------------- */
+  .hero-content h1 {
+    font-size: 3.3rem;
+    line-height: 4rem;
+  }
+
+  .hero-section {
+    height: 420px;
+  }
+  .hero-section img {
+    height: 420px;
+  }
+  .hero-content p {
+    font-size: 1.6rem;
+    width: 75%;
+  }
+  /*---------------- About Section------------ */
+  .about-section-grid-left p {
+    font-size: 1.5rem;
+  }
+
+  .about-section-grid {
+    grid-template-columns: 100%;
+    grid-row-gap: 20px;
+    padding: 50px 30px;
+    transform: translateY(-50px);
+    text-align: center;
+  }
+  .about-section-grid-left {
+    padding: 0 0 10px 0;
+  }
+  /* --------Security Cards----------- */
+  .security-cards-section > p {
+    font-size: 1.5rem;
+    line-height: 2.1rem;
+    font-size: 400;
+  }
+  /* ------------Contact Form Section------------ */
+  .contact-form > p {
+    font-size: 1.5rem;
+    line-height: 2.1rem;
+    font-size: 400;
+  }
+  .contact-form-grid {
+    grid-template-columns: 100%;
+    margin-top: 30px;
+  }
+  .contact-form-grid-right {
+    padding: 30px 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-box {
+    padding: 6px 0;
+  }
+
+  .navlinks > li {
+    margin: 0 0 0 20px;
+  }
+  .heading-2 {
+    font-size: 2.3rem;
+    line-height: 2.9rem;
+  }
+  .heading-3 {
+    font-size: 1.9rem;
+  }
+
+  /* ----------------Home Page--------------- */
+  .hero-content h1 {
+    font-size: 2.6rem;
+    line-height: 3.3rem;
+  }
+  .hero-content p {
+    font-size: 1.5rem;
+    width: 75%;
+  }
+  .hero-section {
+    height: 370px;
+  }
+  .hero-section img {
+    height: 370px;
+  }
+  .hero-content button a {
+    padding: 9px 19px;
+    font-size: 1.3rem;
+  }
+  /*------------- About Section------------ */
+  .about-section {
+    width: 90%;
+  }
+  .about-section-grid-left p {
+    font-size: 1.4rem;
+  }
+  .about-section-grid {
+    padding: 40px 20px 20px 20px;
+    transform: translateY(-20px);
+  }
+  .about-section-grid-left {
+    padding: 0 0 10px 0;
+  }
+  /*--------------- Security Card-------------- */
+  .security-cards-section {
+    margin: 70px auto 80px auto;
+  }
+  .security-cards-section > p {
+    font-size: 1.4rem;
+    width: 95%;
+  }
+  .card-hover {
+    height: 300px;
+  }
+  .card-hover__title {
+    font-size: 1.9rem;
+  }
+  .card-hover__content {
+    padding: 0 10px 15px 10px;
+  }
+  .card-hover__text {
+    font-size: 1.4rem;
+  }
+  /* ---------Contact Section----------- */
+  .contact-form > p {
+    font-size: 1.4rem;
+    width: 95%;
+  }
+  .contact-form-grid-left div {
+    column-gap: 15px;
+    margin-top: 25px;
+  }
+  .contact-form-grid-left {
+    padding: 20px 20px;
+  }
+  .contact-form-grid-right {
+    padding: 20px 20px;
+  }
+  .contact-form-grid-right form div input,
+  .contact-form-grid-right form div input::placeholder,
+  .contact-form-grid-right form div textarea,
+  .contact-form-grid-right form div textarea::placeholder {
+    font-size: 1.3rem;
+  }
+  .contact-form-grid-right form button {
+    font-size: 1.4rem;
+    padding: 8px 18px;
+  }
+  /*-------------- Footer----------- */
+  .footer-grid-left img {
+    width: 40px;
+  }
+  .footer-grid-mid nav a {
+    margin: 0 14px;
+  }
+  .footer-grid-right nav {
+    column-gap: 14px;
+  }
+  footer {
+    margin: 70px 0 20px 0;
+  }
+}
+
+@media only screen and (min-width: 830px) {
+  .navlinks ion-icon {
+    display: none;
+  }
+}
+@media only screen and (max-width: 830px) {
+  .navlinks .nav-item {
+    display: none;
+  }
+}
