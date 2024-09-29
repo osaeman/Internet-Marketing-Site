@@ -21,8 +21,10 @@
   --grey-clr: #3a3a3a;
   --grey-shade-light: rgb(129, 129, 129);
   --grey-shade-dark: rgb(158, 158, 158);
-  --secondary-clr: #01b8b0;
-  --third-clr: #dff7f6;
+  /* --secondary-clr: #01b8b0;
+  --third-clr: #dff7f6; */
+  --secondary-clr: #e55757;
+  --third-clr: #ffe1e1;
   --fourth-clr: #f1f1f1;
 }
 html {
@@ -425,7 +427,7 @@ header {
   transition: transform 0.35s;
 }
 .card-hover:hover .card-hover__content {
-  background-color: #f0f8f7;
+  background-color: var(--third-clr);
   bottom: 100%;
   transform: translateY(100%);
   padding: 20px 15px 5px 15px;
@@ -691,12 +693,12 @@ footer {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: rgba(167, 190, 174, 0.4);
+  background-color: var(--secondary-clr);
   width: 40px;
   height: 40px;
   cursor: pointer;
   font-size: 1.8rem;
-  color: black;
+  color: white;
   border-radius: 50%;
 }
 .footer-grid-right nav a:hover {
